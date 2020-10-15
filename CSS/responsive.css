@@ -1,0 +1,117 @@
+@media (max-width: 1050px) {
+    body {
+        width: 1050px;
+    }
+    .navbar {
+        width: 900px;
+        padding: 0px;
+        padding-bottom: 35px;
+        margin-bottom: 20px;
+    }
+    .container {
+        padding: 50px;
+    }
+    .row {
+        width: 100%;
+    }
+    .search {
+        width: 300px;
+    }
+    .header-list {
+        margin: 0px;
+    }
+    .btn button {
+        margin-left: 50px;
+    }
+    .text-jmb, .hero {
+        flex: 100%;
+    }
+    .jmb-hero {
+        width: 1050px;
+        padding-right: 100px;
+    }
+    .latar {
+        width: 400px;
+        position: relative;
+        margin-right: -50px;
+        margin-bottom: -45px;
+    }
+    .hero img {
+        flex: 50%;
+        width: 400px;
+        margin-left: -34px;
+        margin-top: -500px;
+    }
+    .etalase {
+        padding: 0px 15px;
+    }
+    .partner {
+        margin-top: 0px;
+        height: 100px;
+    }
+    .tumbnail {
+        width: 130px;
+    }
+    footer {
+        margin-top: 0px;
+        padding: 0 50px;
+    }
+    .copyright {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+  /* For Smartphones */
+@media (max-width: 700px) {
+    body {
+        max-width: 700px;
+        width: 100%;
+    }
+    
+    .container {
+        width: 100%;
+        padding: 30px;
+    }
+    .navbar {
+        width: 700px;
+        left: -60px;
+        padding: 0px;
+        padding-bottom: 35px;
+        margin-bottom: 20px;
+    }
+    .search {
+        width: 200px;
+    }
+    .header-list {
+        width: auto;
+    }
+    .notif {
+        padding: 0 0 0 25px;
+    }
+    .btn button {
+        margin-left: 0px;
+    }
+    .text h1 {
+        font-size: 26px;
+    }
+
+    .hero img {
+        flex: none;
+        width: 350px;
+        margin-left: -34px;
+        margin-top: -500px;
+    }
+    .latar {
+        width: 350px;
+        position: relative;
+        margin-right: 50px;
+        margin-bottom: -45px;
+    }
+    .partner {
+        margin-top: 0px;
+        height: 100px;
+    }
+    .tumbnail {
+        width: 130px;
+    }
+}
